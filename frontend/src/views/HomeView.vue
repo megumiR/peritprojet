@@ -1,20 +1,35 @@
 <template>
-  <div class="home flex">
-    <div class="row">
-      <HelloWorld msg="Welcome to Your Vue.js App" class="col-6" />
-      <img alt="Vue logo" src="../assets/79361.png" class="img-fluid col-6" />
-    </div>
+  <div class="home">
+    <section class="row flex">
+      <div class="col-6 flex">
+        <h1>Hello and Thank you for visiting!</h1>
+        <h2>
+          Je m'appele<br />
+          Megumi RENAUX SHONO<br />
+          une développeuse web junior<br />
+          Je suis à la recherche d'un job <strong>en alternance</strong> où je peux apprendre <strong>JAVA</strong>
+        </h2>
+      </div>
+      <img
+        alt="Vue logo"
+        src="../assets/unsplash.jpg"
+        class="img-fluid col-6"
+      />
+    </section>
+    <section>
+      <div></div>
+    </section>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import HelloMsg from "@/components/HelloMsg.vue";
 
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
+    HelloMsg,
   },
 };
 </script>
