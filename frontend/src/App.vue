@@ -25,18 +25,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <router-link
-                  to="/"
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
+                <router-link to="/" class="nav-link active" aria-current="page"
                   >Home</router-link
                 >
               </li>
               <li class="nav-item">
-                <router-link to="/about" class="nav-link" href="#"
-                  >About</router-link
-                >
+                <router-link to="/about" class="nav-link">About</router-link>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -47,7 +41,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Project
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>

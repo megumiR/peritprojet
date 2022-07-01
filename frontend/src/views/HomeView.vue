@@ -13,7 +13,7 @@
           </p>
         </div>
       </div>
-      <router-link to="/projet">
+      <router-link to="/project">
         Projet here
         <i class="far fa-angle-double-down fa-jg"></i>
         <i class="far fa-arrow-circle-down"></i>
