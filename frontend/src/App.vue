@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <router-link to="/" aria-current="page" class="navbar-brand">
             <img
@@ -9,7 +9,8 @@
               alt="logo of Megumi RENAUX SHONO portfolio"
               class="img-icon"
             />
-            Megumi RENAUX SHONO</router-link>
+            Megumi RENAUX SHONO
+          </router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -65,12 +66,8 @@
       </nav>
       <router-view />
     </header>
-    
     <footer class="text-muted py-5">
       <div class="container">
-        <p class="float-end mb-1">
-          <a href="#" class="btn btn-secondary">Back to top</a>
-        </p>
         <p class="mb-1">&copy; MRS</p>
       </div>
     </footer>
