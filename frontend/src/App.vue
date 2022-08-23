@@ -26,11 +26,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <router-link to="/" class="nav-link active" aria-current="page"
-                  >Home</router-link
+                  >Accueil</router-link
                 >
               </li>
               <li class="nav-item">
-                <router-link to="/about" class="nav-link">About</router-link>
+                <router-link to="/project" class="nav-link"
+                  >Projets</router-link
+                >
+              </li>
+              <li class="nav-item">
+                <router-link to="/admin" class="nav-link">Login</router-link>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -50,9 +55,6 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
           </div>
