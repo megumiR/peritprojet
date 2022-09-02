@@ -1,12 +1,29 @@
 <template>
   <div class="projectdetail">
     <h1>Detail of the project</h1>
-    <div class="card mb-3">
-      <img
-        class="card-img-top"
-        src="../assets/79361.png"
-        alt="Card image cap"
-      />
+    <div class="card mx-3">
+      <div>
+        <video
+          width="320"
+          height="240"
+          controls
+          autoplay
+          poster="../assets/p6.png"
+        >
+          <source
+            src="../assets/TheHottestReviews - Google Chrome 2022-07-05 18-43-45.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <iframe
+          width="560"
+          height="315"
+          src="../assets/TheHottestReviews - Google Chrome 2022-07-05 18-43-45.mp4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div class="card-body">
         <h5 class="card-title">Card title detail of project</h5>
         <p class="card-text">
